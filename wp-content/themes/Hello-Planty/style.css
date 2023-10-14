@@ -11,3 +11,12 @@
     Tags: accessibility-ready, flexible-header, custom-colors, custom-menu, custom-logo, featured-images, rtl-language-support, threaded-comments, translation-ready,
     Text Domain: hello-planty
 */
+
+.elementor-button-link{
+    background-color: black;
+}
+
+.plantysubmit{
+	background-color: #E0B9B4;
+}
+
