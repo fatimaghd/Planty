@@ -2,19 +2,33 @@
 # This file is distributed under the same license as the Themes - Hello Elementor package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-02 15:33:13+0000\n"
+"PO-Revision-Date: 2023-11-05 13:54:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.6\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
 "Language: fr\n"
 "Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor page builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators."
+msgstr "Hello Elementor est un thème WordPress léger et minimaliste qui a été spécialement conçu pour fonctionner de manière transparente avec le plugin de création de pages Elementor. Le thème est gratuit, open-source et conçu pour les personnes qui souhaitent un site flexible, facile à utiliser et personnalisable. Le thème, qui est optimisé pour les performances, fournit une base solide aux utilisateurs/utilisatrices pour créer leurs propres conceptions uniques à l’aide du constructeur de site par glisser-déposer d’Elementor. Sa simplicité et sa flexibilité en font un excellent choix pour les débutants et les créateurs de sites expérimentés."
 
 #. Theme Name of the theme
 #, gp-priority: high
 msgid "Hello Elementor"
 msgstr "Hello Elementor"
+
+#: includes/settings-functions.php:19
+msgid "Theme Settings"
+msgstr "Réglages du thème"
+
+#: includes/settings-functions.php:18 assets/js/hello-admin.js:103
+#: assets/js/hello-admin.js:144
+msgid "Hello Theme Settings"
+msgstr "Réglages du thème Hello"
 
 #. translators: %s: Link that opens Elementor's "Site Identity" panel.
 #: includes/settings/settings-footer.php:279
@@ -39,10 +53,6 @@ msgstr "Hello est un thème de démarrage léger qui fonctionne parfaitement ave
 #: includes/settings/settings-header.php:518
 msgid "Upgrade"
 msgstr "Mettre à niveau"
-
-#: includes/customizer/elementor-upsell.php:78
-msgid "Activate Now"
-msgstr "Activer maintenant"
 
 #: header.php:31
 msgid "Skip to content"
@@ -307,39 +317,6 @@ msgstr "Utilisez cette expérience pour concevoir un en-tête et un pied de page
 msgid "Hello Theme Header & Footer"
 msgstr "En-tête et pied de page du thème Hello"
 
-#: includes/customizer/elementor-upsell.php:86
-msgid "Start Here"
-msgstr "Commencer ici"
-
-#: includes/customizer/elementor-upsell.php:75
-#: includes/customizer/elementor-upsell.php:83
-msgid "Set Your Header &amp; Footer"
-msgstr "Réglez votre en-tête et votre pied de page."
-
-#: includes/customizer/elementor-upsell.php:68
-msgid "You need Elementor version 3.1.0 or above to create a cross-site Header and Footer."
-msgstr "Vous devez disposer de la version 3.1.0 ou supérieure d’Elementor pour créer un en-tête et un pied de page inter-sites."
-
-#: includes/customizer/elementor-upsell.php:67
-#: includes/customizer/elementor-upsell.php:70
-msgid "Update Elementor"
-msgstr "Mettre à jour Elementor"
-
-#: includes/customizer/elementor-upsell.php:54
-msgid "Install &amp; Activate"
-msgstr "Installer et Activer"
-
-#: includes/customizer/elementor-upsell.php:43
-#: includes/customizer/elementor-upsell.php:60
-#: includes/customizer/elementor-upsell.php:76
-#: includes/customizer/elementor-upsell.php:84
-msgid "Create a cross-site Header and Footer using Elementor & Hello theme."
-msgstr "Créer un en-tête et un pied de page inter-sites à l’aide d’Elementor et du thème Hello"
-
-#: includes/customizer-functions.php:19
-msgid "Header &amp; Footer"
-msgstr "En-tête et pied de page"
-
 #: includes/admin-functions.php:133
 msgid "Get Elementor"
 msgstr "Obtenir Elementor"
@@ -358,12 +335,11 @@ msgstr "En-tête"
 msgid "Thanks for installing the Hello Theme!"
 msgstr "Merci d’avoir installé le thème Hello !"
 
-#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:42
+#: includes/admin-functions.php:49
 msgid "Install Elementor"
 msgstr "Installer Elementor"
 
-#: includes/admin-functions.php:40 includes/customizer/elementor-upsell.php:59
-#: includes/customizer/elementor-upsell.php:62
+#: includes/admin-functions.php:40
 msgid "Activate Elementor"
 msgstr "Activer Elementor"
 
